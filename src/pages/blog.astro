@@ -1,9 +1,6 @@
 ---
-
+const pageTitle = "Blog";
 ---
-<a href="/">aehabdelouadoud.com</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
 
 <html lang="en">
 	<head>
@@ -11,18 +8,25 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.jpg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>AIT EL HAJ Abdelouadoud</title>
+    <title>{pageTitle}</title>
 	</head>
 	<body>
-    <h6>Neovim</h6>
-    <p>Sagittis convallis nibh integer convallis consectetur nunc porta aenean tempor. Convallis, ultricies enim sit laoreet sed, platea aliquam est aliquam. Est praesent lacus, tempus, morbi iaculis porta vel ligula praesent. Vel nunc sagittis a, at facilisis ut dolor et lectus. Consequat justo magna, vitae dolor eu, habitasse tristique aliquet ornare.
+    <a href="/">aehabdelouadoud.com</a>
+    <a href="/about/">About</a>
+    <a href="/blog/">Blog</a>
 
-Lorem tempus sed lorem platea, urna dolor, proin et lorem. Molestie faucibus ligula, dis lectus nullam et, magna imperdiet amet. Arcu, in est leo dignissim venenatis iaculis ornare vivamus eu. Elit, eleifend aliquam sit, vestibulum tortor facilisis felis vestibulum amet. Sapien felis eget euismod et est, facilisis enim vel nunc.
-
-Et ut ut, dignissim at vitae quis dictum arcu turpis. Tristique lectus aliquam nullam arcu laoreet eleifend, aliquam pretium donec. Magna, ut vivamus ligula nec diam porttitor id tortor ligula. Eu gravida, enim sed, nisi euismod nulla odio dictum laoreet. Tempor condimentum id aenean libero, vitae, volutpat magnis eget faucibus.
-
-Faucibus, facilisis lacus eget, maximus ridiculus pellentesque vel ornare ante. Est at, suspendisse elit vulputate praesent ac auctor aenean dictum. Aliquet, dis, auctor sit diam eleifend vestibulum dolor tempor lectus. Condimentum eu vulputate etiam lectus dapibus, erat nisi eget velit. Amet, felis amet nulla, tempor efficitur eget vitae lectus amet.
-
-Ante faucibus, vestibulum laoreet, sed lectus eros nec posuere euismod. Diam dui, tempor morbi placerat nunc platea imperdiet porta, elit. Eleifend fringilla et eu leo sit pretium sapien pellentesque tempus. Ligula posuere suscipit ac, vitae sit rhoncus massa urna eu. Montes odio vitae praesent velit nulla arcu consectetur, convallis dapibus.</p>
+    <h1>{pageTitle}</h1>
+    <p>Good luck vimmer :)</p>
+    <ul>
+      <li><a href="/posts/neovim_vs_vim">Neovim vs Vim</a></li>
+      <li><a href="/posts/neovim_vs_other_ides">Neovim Vs VS-code</a></li>
+      <li><a href="/posts/neovim_journey">Neovim Journey</a></li>
+      <li><a href="/posts/c_programming_language">C programming?</a></li>
+      <li><a href="/posts/nixos">NixOS</a></li>
+      <li><a href="/posts/shell_basics">Shell basic</a></li>
+      <li><a href="/posts/unix_history">Unix History!</a></li>
+    </ul>
 	</body>
 </html>
+
+
