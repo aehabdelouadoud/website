@@ -22,30 +22,21 @@ const goal = 3;
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/">aehabdelouadoud.com</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+      <p style="text-align: center;">
+        <a href="/">aehabdelouadoud.com</a>
+        <a href="/about/">About</a>
+        <a href="/blog/">Blog</a>
+      </p>
 
-    <h1>{pageTitle}</h1>
-    <h2>... and my new Astro site!</h2>
+    <h1 style="text-align: center;">{pageTitle}</h1>
 
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p> 
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-
-    <p>Here are a few facts about me:</p>
-    <ul>
-      <li>My name is {identity.firstName}.</li>
-      <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-      {identity.hobbies.length >= 2 && <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>}
-    </ul>
-    <p>My skills are:</p>
-    <ul>
-      {skills.map((skill) => <li>{skill}</li>)}
-    </ul>
-
-    {happy && <p>I am happy to be learning Astro!</p>}
-    {finished && <p>I finished this tutorial!</p>}
-    {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
-
+    <p style="text-align: center;">
+    I am a very enthusiastic and driven individual with a huge passion for IT and
+    Business, complemented by a strong interest in public speaking and reading. My
+    commitment to continuous learning and innovation fuels my pursuit of excellence
+    in both academic and pro- fessional settings. I would like to use all the
+    diverse skills and expe- riences in contributing meaningfully toward
+    collaborative projects and leaving a lasting positive impact. 
+    </p>
   </body>
 </html>
